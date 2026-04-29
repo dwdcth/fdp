@@ -3,7 +3,7 @@ package scheduler
 import (
 	"sync"
 
-	"docker_aria2c/internal/downloader"
+	"github.com/dwdcth/fdp/internal/downloader"
 )
 
 func Run(tasks []downloader.Task, workers int, fn func(task downloader.Task) error) error {

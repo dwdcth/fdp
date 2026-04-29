@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"docker_aria2c/internal/app"
+	"github.com/dwdcth/fdp/internal/app"
 )
 
 func main() {

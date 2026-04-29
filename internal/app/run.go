@@ -9,15 +9,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	"docker_aria2c/internal/cache"
-	"docker_aria2c/internal/cli"
-	"docker_aria2c/internal/downloader"
-	"docker_aria2c/internal/export"
-	"docker_aria2c/internal/manifest"
-	"docker_aria2c/internal/reference"
-	"docker_aria2c/internal/registry"
-	"docker_aria2c/internal/scheduler"
-	"docker_aria2c/internal/state"
+	"github.com/dwdcth/fdp/internal/cache"
+	"github.com/dwdcth/fdp/internal/cli"
+	"github.com/dwdcth/fdp/internal/downloader"
+	"github.com/dwdcth/fdp/internal/export"
+	"github.com/dwdcth/fdp/internal/manifest"
+	"github.com/dwdcth/fdp/internal/reference"
+	"github.com/dwdcth/fdp/internal/registry"
+	"github.com/dwdcth/fdp/internal/scheduler"
+	"github.com/dwdcth/fdp/internal/state"
 )
 
 func Run(args []string) error {

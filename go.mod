@@ -1,4 +1,4 @@
-module docker_aria2c
+module github.com/dwdcth/fdp
 
 go 1.24.0
 

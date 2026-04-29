@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"docker_aria2c/internal/manifest"
+	"github.com/dwdcth/fdp/internal/manifest"
 )
 
 type ArchiveInput struct {

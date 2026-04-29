@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"docker_aria2c/internal/registry"
+	"github.com/dwdcth/fdp/internal/registry"
 )
 
 func IsManifestList(mediaType string) bool {
