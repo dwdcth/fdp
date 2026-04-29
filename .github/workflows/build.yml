@@ -47,13 +47,13 @@ jobs:
         run: |
           ext=""
           if [ "$GOOS" = "windows" ]; then ext=".exe"; fi
-          go build -ldflags="-s -w" -o "dockerpull-${GOOS}-${GOARCH}${ext}" ./cmd/dockerpull
+          go build -ldflags="-s -w" -o "fdp-${GOOS}-${GOARCH}${ext}" ./cmd/dockerpull
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dockerpull-${{ matrix.goos }}-${{ matrix.goarch }}
-          path: dockerpull-${{ matrix.goos }}-${{ matrix.goarch }}*
+          name: fdp-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: fdp-${{ matrix.goos }}-${{ matrix.goarch }}*
 
   release:
     needs: build
