@@ -1,5 +1,5 @@
 /dockerpull
-cache/
+/cache/
 .claude/
 .spec-workflow/
 *.tar.gz
