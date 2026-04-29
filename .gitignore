@@ -1,0 +1,6 @@
+dockerpull
+cache/
+.claude/
+.spec-workflow/
+*.tar.gz
+*.db
